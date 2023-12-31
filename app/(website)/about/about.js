@@ -13,7 +13,7 @@ export default function About({ authors, settings }) {
         <p className="text-lg"></p>
       </div>
 
-      <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
+      {/* <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
         {authors.slice(0, 3).map(author => {
           const imageProps = urlForImage(author?.image) || null;
           return (
@@ -34,22 +34,23 @@ export default function About({ authors, settings }) {
             </div>
           );
         })}
-      </div>
+      </div> */}
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
+        <h2>Padukuhan Setan</h2>
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+        Padukuhan Setan merupakan salah satu padukuhan yang berada di Kelurahan Wijimulyo, Kec. Nanggulan, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+          <Link href="/contact">Hubungi Kami</Link>
+        </p>
+
+        <h2>KKN 84 UAJY</h2>
+        <p>
+          Website ini dibuat oleh KKN 84 Universitas Atma Jaya Yogyakarta yang Diharapkan Bisa Menjadikan Padukuhan Setan Lebih Digital dan Modern.
         </p>
         <p>
-          <Link href="/contact">Get in touch</Link>
+          <Link href="https://padukuhan-setan-kkn.vercel.app/kkn">Lihat Detail KKN UAJY</Link>
         </p>
       </div>
     </Container>
