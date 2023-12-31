@@ -17,31 +17,20 @@ export default function Navbar(props) {
       href: "/"
     },
     {
-      label: "About",
+      label: "Tentang",
       href: "/about"
     },
-    {
-      label: "Contact",
-      href: "/contact"
-    }
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
+      label: "Kontak",
+      href: "/contact"
+    },
+    {
+      label: "Berita",
       href: "/archive"
     },
-    {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
-      external: true,
-      badge: "new"
-    },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
-    }
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
