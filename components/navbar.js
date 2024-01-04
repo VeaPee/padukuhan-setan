@@ -31,6 +31,10 @@ export default function Navbar(props) {
       label: "Berita",
       href: "/archive"
     },
+    {
+      label: "Web KKN",
+      href: "https://padukuhan-setan-kkn.vercel.app/"
+    },
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
